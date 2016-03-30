@@ -1,0 +1,14 @@
+﻿<UserControl x:Class="DoAn2.Message"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="83" d:DesignWidth="314">
+    <Grid HorizontalAlignment="Left" Height="73"  VerticalAlignment="Top" Width="314">
+        <Label x:Name="lbName" Content="NAME" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Top" Width="165" FontSize="16" FontWeight="Bold"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="31" Margin="180,0,0,0" VerticalAlignment="Top" Width="31" Source="Images/ClockIcon.png" />
+        <Label x:Name="lbTime" Content="TIME" HorizontalAlignment="Left" Margin="216,4,0,0" VerticalAlignment="Top" Width="88"/>
+        <TextBlock x:Name="lbMess" Text="MESS" HorizontalAlignment="Left" Margin="10,36,0,0" VerticalAlignment="Top" Width="294" Height="37" TextWrapping="Wrap"/>
+    </Grid>
+</UserControl>
